@@ -1,7 +1,7 @@
 % =========================================================================
 % HVDC - four-terminal scheme
 % 
-% Developed by: F. Bianchi, E. Prieto
+% Developed by: F. Bianchi, E. Prieto, S. Matta
 %% =========================================================================
 close all, clear all
 fpath = './DCtech';
@@ -275,6 +275,7 @@ Gcl_0 = lft(G2,Kg*eye(2));
 Gzw_GzuKSGyw = Gcl_0(1:2,1:2);
 dcgain(Gzw_GzuKSGyw)*[633.2;633.2]
 totalbus=dcgain(Gzw_GzuKSGyw)*[633.2;633.2]+[145e3;145e3]
+
 
 
 
