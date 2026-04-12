@@ -1,7 +1,7 @@
 % =========================================================================
 % HVDC - four-terminal scheme
 % 
-% Developed by: F. Bianchi, E. Prieto, S. Matta
+% Developed by: F. Bianchi, E. Prieto, 
 %% =========================================================================
 close all, clear all
 fpath = './DCtech';
